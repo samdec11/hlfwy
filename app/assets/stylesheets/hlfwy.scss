@@ -1,0 +1,30 @@
+body {
+  background-color: #fcfbf9;
+}
+
+#map_canvas {
+  width: 450px;
+  height: 450px;
+  border: 1px solid black;
+}
+
+#background {
+  background-image: url('satc.jpg');
+  width: 100%;
+  min-height: 800px;
+  position: absolute;
+  opacity: 0.5;
+  background-size: cover;
+}
+
+.hide {
+  display: none;
+}
+
+#number {
+border: 1px solid #000;
+font-size: 14px;
+color: #fff;
+background: #444;
+padding: 5px;
+}
