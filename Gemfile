@@ -6,6 +6,7 @@ gem 'haml'
 gem 'bcrypt-ruby'
 gem 'geocoder'
 gem 'oauth'
+gem 'pg'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
