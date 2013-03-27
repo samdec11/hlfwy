@@ -5,7 +5,6 @@ gem 'jquery-rails'
 gem 'haml'
 gem 'bcrypt-ruby'
 gem 'geocoder'
-gem 'sqlite3'
 gem 'oauth'
 gem 'yelp'
 
@@ -24,4 +23,5 @@ group :development, :test do
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'meta_request'
+  gem 'sqlite3'
 end
