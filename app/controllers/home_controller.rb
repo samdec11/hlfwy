@@ -16,10 +16,10 @@ class HomeController < ApplicationController
     render :json => geographic_center
   end
   def search_yelp
-    consumer_key = '6urZDJ1aZ5o6fMJsNSHkRg'
-    consumer_secret = 'imoHLajHsoKMq0nDrh_eAc2SPfM'
-    token = '8GmJMTEqbUoCelilkCDKcj4pNbXObdaZ'
-    token_secret = 'bUYj_Wcpa3pxWQglcTU0K31RyHY'
+    consumer_key = ENV['YLPCK']
+    consumer_secret = ENV['YLPCS']
+    token = ENV['YLPT']
+    token_secret = ENV['YLPTS']
 
     api_host = 'api.yelp.com'
 
